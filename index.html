@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>reskill.guru — Break In. Build Skills. Get Hired. Not Just Certified. 8-Week Program.</title>
+<meta name="description" content="8-week hands-on cybersecurity bootcamp built by practitioners with 20+ years in the field. Real labs, real tools, real job readiness. Founding batch — only 15 seats. Starts 30th May.">
+<!-- OG / Social sharing tags -->
+<meta property="og:title" content="reskill.guru — Break In. Build Skills. Get Hired. Not Just Certified.">
+<meta property="og:description" content="8-week hands-on cybersecurity bootcamp. Real labs. Real tools. Founding batch of 15 starts 30th May. ₹4,999 only.">
+<meta property="og:image" content="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICA8cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIGZpbGw9IiMwYTBhMGEiLz4KICA8ZGVmcz4KICAgIDxwYXR0ZXJuIGlkPSJncmlkIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8cGF0aCBkPSJNIDYwIDAgTCAwIDAgMCA2MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDIwMCwyNDEsNTMsMC4wNCkiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgPC9wYXR0ZXJuPgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIGZpbGw9InVybCgjZ3JpZCkiLz4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNiIgaGVpZ2h0PSI2MzAiIGZpbGw9IiNjOGYxMzUiLz4KICA8cmVjdCB4PSIwIiB5PSI1OTQiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIGZpbGw9IiNjOGYxMzUiIG9wYWNpdHk9IjAuMyIvPgogIDxwYXRoIGQ9Ik04MCAxMjBMMTIwIDEwNUwxNjAgMTIwVjE4NUMxNjAgMjIwIDEyMCAyNDAgMTIwIDI0MEMxMjAgMjQwIDgwIDIyMCA4MCAxODVWMTIwWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzhmMTM1IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNOTggMTY4TDExNCAxODBMOTggMTkyIiBzdHJva2U9IiNjOGYxMzUiIHN0cm9rZS13aWR0aD0iNC41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8cmVjdCB4PSIxMTYiIHk9IjE3OCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjUiIGZpbGw9IiNjOGYxMzUiLz4KICA8dGV4dCB4PSI4MCIgeT0iMzAwIiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI3MiIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2YwZWRlNiIgbGV0dGVyLXNwYWNpbmc9Ii0yIj5yZXNraWxsPC90ZXh0PgogIDx0ZXh0IHg9IjgwIiB5PSIzNjAiIGZvbnQtZmFtaWx5PSJDb3VyaWVyIE5ldyxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMzIiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNjOGYxMzUiIGxldHRlci1zcGFjaW5nPSIxMCI+Lmd1cnU8L3RleHQ+CiAgPHJlY3QgeD0iODAiIHk9IjM5MCIgd2lkdGg9IjUwMCIgaGVpZ2h0PSIyIiBmaWxsPSIjMWUxZTFlIi8+CiAgPHRleHQgeD0iODAiIHk9IjQ0MCIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzgiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmMGVkZTYiIGxldHRlci1zcGFjaW5nPSItMC41Ij5CcmVhayBJbi4gQnVpbGQgU2tpbGxzLjwvdGV4dD4KICA8dGV4dCB4PSI4MCIgeT0iNDkwIiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzOCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2M4ZjEzNSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPkdldCBIaXJlZC4gTm90IEp1c3QgQ2VydGlmaWVkLjwvdGV4dD4KICA8dGV4dCB4PSI4MCIgeT0iNTQ1IiBmb250LWZhbWlseT0iQ291cmllciBOZXcsbW9ub3NwYWNlIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNTU1IiBsZXR0ZXItc3BhY2luZz0iMyI+OC1XRUVLIEFORE5TLU9OIEJPT1RDQU1QPC90ZXh0PgogIDxyZWN0IHg9IjcyMCIgeT0iODAiIHdpZHRoPSI0MjAiIGhlaWdodD0iNDcwIiBmaWxsPSIjMGUwZTBlIiByeD0iMiIvPgogIDxyZWN0IHg9IjcyMCIgeT0iODAiIHdpZHRoPSI0MjAiIGhlaWdodD0iMyIgZmlsbD0iI2M4ZjEzNSIvPgogIDx0ZXh0IHg9Ijc1MCIgeT0iMTQwIiBmb250LWZhbWlseT0iQ291cmllciBOZXcsbW9ub3NwYWNlIiBmb250LXNpemU9IjEzIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjYzhmMTM1IiBsZXR0ZXItc3BhY2luZz0iNCI+Rk9VTkRJTkcgQkFUQ0g8L3RleHQ+CiAgPHRleHQgeD0iNzUwIiB5PSIyMTAiIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjayxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjY0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZjBlZGU2Ij4xNTwvdGV4dD4KICA8dGV4dCB4PSI3NTAiIHk9IjI1MCIgZm9udC1mYW1pbHk9IkNvdXJpZXIgTmV3LG1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzU1NSIgbGV0dGVyLXNwYWNpbmc9IjIiPlNFQVRTIE9OTFk8L3RleHQ+CiAgPHJlY3QgeD0iNzUwIiB5PSIyNzUiIHdpZHRoPSIzNjAiIGhlaWdodD0iMSIgZmlsbD0iIzFlMWUxZSIvPgogIDx0ZXh0IHg9Ijc1MCIgeT0iMzMwIiBmb250LWZhbWlseT0iQ291cmllciBOZXcsbW9ub3NwYWNlIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNTU1IiBsZXR0ZXItc3BhY2luZz0iMiI+Rk9VTkRJTkcgUFJJQ0U8L3RleHQ+CiAgPHRleHQgeD0iNzUwIiB5PSIzOTUiIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjayxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjU4IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjYzhmMTM1Ij4mIzgzNzc7NCw5OTk8L3RleHQ+CiAgPHJlY3QgeD0iNzUwIiB5PSI0MjAiIHdpZHRoPSIzNjAiIGhlaWdodD0iMSIgZmlsbD0iIzFlMWUxZSIvPgogIDx0ZXh0IHg9Ijc1MCIgeT0iNDcwIiBmb250LWZhbWlseT0iQ291cmllciBOZXcsbW9ub3NwYWNlIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNTU1IiBsZXR0ZXItc3BhY2luZz0iMiI+Q09IT1JUIFNUQVJUUzwvdGV4dD4KICA8dGV4dCB4PSI3NTAiIHk9IjUyMCIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmMGVkZTYiPjMwdGggTWF5IDIwMjU8L3RleHQ+CiAgPHRleHQgeD0iNzUwIiB5PSI1NDUiIGZvbnQtZmFtaWx5PSJDb3VyaWVyIE5ldyxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMzMzMiIGxldHRlci1zcGFjaW5nPSIyIj5yZXNraWxsLmd1cnU8L3RleHQ+Cjwvc3ZnPg==">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://reskill.guru">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="reskill.guru — Break In. Build Skills. Get Hired. Not Just Certified.">
+<meta name="twitter:description" content="8-week hands-on cybersecurity bootcamp. Founding batch of 15 starts 30th May. ₹4,999 only.">
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj4KICA8cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiMwYTBhMGEiLz4KICA8cGF0aCBkPSJNNiA3TDE2IDRMMjYgN1YxOEMyNiAyNCAxNiAyOCAxNiAyOEMxNiAyOCA2IDI0IDYgMThWN1oiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M4ZjEzNSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTExIDE2TDE1IDE5TDExIDIyIiBzdHJva2U9IiNjOGYxMzUiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8cmVjdCB4PSIxNiIgeT0iMjAiIHdpZHRoPSI2IiBoZWlnaHQ9IjEuOCIgZmlsbD0iI2M4ZjEzNSIvPgo8L3N2Zz4=">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <!-- ================================================ -->
+  <!-- GOOGLE ANALYTICS — paste your GA4 code here      -->
+  <!-- Get it from analytics.google.com                 -->
+  <!-- Looks like: G-XXXXXXXXXX                         -->
+  <!-- ================================================ -->
+  <!-- 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+  <!-- END GOOGLE ANALYTICS -->
+
+  <!-- ================================================ -->
+  <!-- META PIXEL — paste your Pixel code here          -->
+  <!-- Get it from business.facebook.com/events/manager -->
+  <!-- Looks like: a 15-16 digit number                 -->
+  <!-- ================================================ -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID_HERE');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1"/>
+  </noscript>
+  -->
+  <!-- END META PIXEL -->
+<style>
+  :root {
+    --black: #0a0a0a;
+    --offwhite: #f0ede6;
+    --acid: #c8f135;
+    --red: #ff3c2f;
+    --muted: #3a3a3a;
+    --border: #222;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--black);
+    color: var(--offwhite);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    cursor: default;
+  }
+
+  /* ─── NOISE OVERLAY ─── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1000;
+    opacity: 0.4;
+  }
+
+  /* ─── NAV ─── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 3rem;
+    border-bottom: 1px solid #1a1a1a;
+    background: rgba(10,10,10,0.92);
+    backdrop-filter: blur(12px);
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-logo svg {
+    height: 34px;
+    width: auto;
+  }
+
+  .nav-cta {
+    background: var(--acid);
+    color: var(--black);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.6rem 1.4rem;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    transition: all 0.2s;
+    clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+  }
+
+  .nav-cta:hover {
+    background: var(--offwhite);
+    transform: translateY(-1px);
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--border);
+    padding-top: 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(200,241,53,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(200,241,53,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+  }
+
+  .hero-left {
+    padding: 5rem 3rem 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid var(--border);
+    position: relative;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    color: var(--acid);
+    border: 1px solid rgba(200,241,53,0.3);
+    padding: 0.4rem 0.9rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+  }
+
+  .hero-badge::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--acid);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+  .hero-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.8rem, 5vw, 4.5rem);
+    line-height: 1.0;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title .accent { color: var(--acid); }
+  .hero-title .strike {
+    text-decoration: line-through;
+    color: var(--muted);
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .hero-sub {
+    font-size: 1.1rem;
+    color: #999;
+    line-height: 1.7;
+    max-width: 480px;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+  }
+
+  .hero-sub strong { color: var(--offwhite); font-weight: 500; }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--acid);
+    color: var(--black);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    transition: all 0.25s;
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+    position: relative;
+  }
+
+  .btn-primary:hover {
+    background: #d9ff3a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(200,241,53,0.25);
+  }
+
+  .btn-ghost {
+    color: var(--offwhite);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+    padding-bottom: 2px;
+    transition: border-color 0.2s, color 0.2s;
+    letter-spacing: 0.04em;
+  }
+
+  .btn-ghost:hover { border-color: var(--acid); color: var(--acid); }
+
+  .hero-right {
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+    position: relative;
+  }
+
+  .stat-block {
+    border: 1px solid var(--border);
+    padding: 1.8rem 2rem;
+    margin-bottom: -1px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s;
+  }
+
+  .stat-block:hover { border-color: rgba(200,241,53,0.4); }
+
+  .stat-block::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--acid);
+    transform: scaleY(0);
+    transition: transform 0.3s;
+    transform-origin: bottom;
+  }
+
+  .stat-block:hover::after { transform: scaleY(1); }
+
+  .stat-num {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: var(--acid);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+    letter-spacing: -0.03em;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+    color: #777;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+  }
+
+  .stat-label strong { color: #aaa; font-weight: 500; }
+
+  /* ─── MARQUEE ─── */
+  .marquee-wrap {
+    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    overflow: hidden;
+    padding: 0.8rem 0;
+    background: #0e0e0e;
+  }
+
+  .marquee-track {
+    display: flex;
+    gap: 0;
+    animation: marquee 28s linear infinite;
+    width: max-content;
+  }
+
+  .marquee-item {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    color: #555;
+    padding: 0 2.5rem;
+    white-space: nowrap;
+  }
+
+  .marquee-item span { color: var(--acid); margin-right: 0.5rem; }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* ─── SECTION HEADERS ─── */
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .section-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--acid);
+    border: 1px solid rgba(200,241,53,0.25);
+    padding: 0.25rem 0.6rem;
+  }
+
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  /* ─── FOR WHO ─── */
+  .for-who {
+    padding: 5rem 3rem;
+    border-bottom: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .for-who-left .section-title { margin-bottom: 1rem; }
+
+  .for-who-desc {
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  .instructor-card {
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background: #0e0e0e;
+  }
+
+  .instructor-avatar {
+    width: 52px; height: 52px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .instructor-info strong {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .instructor-info p {
+    font-size: 0.82rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .audience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .audience-item {
+    border: 1px solid var(--border);
+    padding: 1.2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: background 0.2s, border-color 0.2s;
+    cursor: default;
+  }
+
+  .audience-item:hover {
+    background: #111;
+    border-color: rgba(200,241,53,0.2);
+  }
+
+  .audience-icon {
+    font-size: 1.3rem;
+    width: 2rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .audience-text strong {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.1rem;
+  }
+
+  .audience-text span {
+    font-size: 0.78rem;
+    color: #666;
+  }
+
+  /* ─── CURRICULUM ─── */
+  .curriculum {
+    padding: 5rem 3rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .weeks-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+  }
+
+  .week-card {
+    background: var(--black);
+    padding: 1.8rem 1.5rem;
+    position: relative;
+    transition: background 0.2s;
+  }
+
+  .week-card:hover { background: #0f0f0f; }
+
+  .week-card.highlight { background: #0e120a; }
+
+  .week-num {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    color: #444;
+    margin-bottom: 0.8rem;
+  }
+
+  .week-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.3;
+  }
+
+  .week-desc {
+    font-size: 0.78rem;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .week-tag {
+    display: inline-block;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.1em;
+    background: rgba(200,241,53,0.1);
+    color: var(--acid);
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.8rem;
+  }
+
+  .week-tag.red {
+    background: rgba(255,60,47,0.1);
+    color: var(--red);
+  }
+
+  /* ─── TOOLS ─── */
+  .tools {
+    padding: 4rem 3rem;
+    border-bottom: 1px solid var(--border);
+    background: #060606;
+  }
+
+  .tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 2rem;
+  }
+
+  .tool-pill {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    border: 1px solid #222;
+    padding: 0.5rem 1rem;
+    color: #888;
+    transition: all 0.2s;
+    cursor: default;
+  }
+
+  .tool-pill:hover {
+    border-color: rgba(200,241,53,0.4);
+    color: var(--acid);
+    background: rgba(200,241,53,0.04);
+  }
+
+  .tool-pill.featured {
+    border-color: rgba(200,241,53,0.25);
+    color: var(--acid);
+  }
+
+  /* ─── OUTCOMES ─── */
+  .outcomes {
+    padding: 5rem 3rem;
+    border-bottom: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .outcome-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .outcome-item {
+    display: flex;
+    gap: 1.2rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #161616;
+    align-items: flex-start;
+  }
+
+  .outcome-num {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--acid);
+    opacity: 0.6;
+    flex-shrink: 0;
+    padding-top: 0.15rem;
+  }
+
+  .outcome-text strong {
+    display: block;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+
+  .outcome-text p {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .certs-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cert-card {
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cert-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--acid);
+  }
+
+  .cert-name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .cert-desc {
+    font-size: 0.78rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  /* ─── PRICING ─── */
+  .pricing {
+    padding: 5rem 3rem;
+    border-bottom: 1px solid var(--border);
+    background: #060606;
+  }
+
+  .pricing-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--border);
+    max-width: 800px;
+    border: 1px solid var(--border);
+    margin-top: 3rem;
+  }
+
+  .price-card {
+    background: var(--black);
+    padding: 2.5rem;
+    position: relative;
+  }
+
+  .price-card.featured {
+    background: #0c110a;
+  }
+
+  .price-badge {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    color: var(--black);
+    background: var(--acid);
+    padding: 0.25rem 0.6rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+
+  .price-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+
+  .price-amount {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: -0.04em;
+    color: var(--offwhite);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+  }
+
+  .price-amount .currency {
+    font-size: 1.5rem;
+    vertical-align: super;
+    color: #777;
+    font-weight: 400;
+  }
+
+  .price-was {
+    font-size: 0.8rem;
+    color: #555;
+    text-decoration: line-through;
+    margin-bottom: 1.5rem;
+  }
+
+  .price-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .price-features li {
+    font-size: 0.82rem;
+    color: #888;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    line-height: 1.4;
+  }
+
+  .price-features li::before {
+    content: '→';
+    color: var(--acid);
+    flex-shrink: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+  }
+
+  .seats-warning {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    color: var(--red);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 1rem;
+  }
+
+  /* ─── FAQ ─── */
+  .faq {
+    padding: 5rem 3rem;
+    border-bottom: 1px solid var(--border);
+    max-width: 760px;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #161616;
+  }
+
+  .faq-q {
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 1.3rem 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    transition: color 0.2s;
+  }
+
+  .faq-q:hover { color: var(--acid); }
+
+  .faq-q .toggle {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: var(--acid);
+    flex-shrink: 0;
+    transition: transform 0.3s;
+  }
+
+  .faq-a {
+    font-size: 0.85rem;
+    color: #777;
+    line-height: 1.8;
+    padding-bottom: 1.3rem;
+    display: none;
+  }
+
+  .faq-item.open .faq-a { display: block; }
+  .faq-item.open .toggle { transform: rotate(45deg); }
+
+  /* ─── CTA FOOTER ─── */
+  .cta-footer {
+    padding: 6rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4rem;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-footer::before {
+    content: 'RESKILL';
+    position: absolute;
+    right: -2rem;
+    bottom: -2rem;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 12rem;
+    color: rgba(200,241,53,0.02);
+    pointer-events: none;
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .cta-footer-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+
+  .cta-footer-title span { color: var(--acid); }
+
+  .cta-footer-sub {
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 0.8rem;
+    font-weight: 300;
+  }
+
+  /* ─── FOOTER ─── */
+  footer {
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border);
+  }
+
+  footer p {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: #444;
+    letter-spacing: 0.05em;
+  }
+
+  footer span { color: var(--acid); }
+
+  /* ─── WHATSAPP BUTTON ─── */
+  .wa-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #25D366;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: all 0.25s;
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  }
+
+  .wa-btn:hover {
+    background: #1ebe5d;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(37,211,102,0.3);
+  }
+
+  .wa-btn svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .wa-btn-large {
+    font-size: 0.9rem;
+    padding: 1.2rem 2.5rem;
+    gap: 1rem;
+  }
+
+  .wa-btn-large svg { width: 24px; height: 24px; }
+
+  /* ─── FLOATING WHATSAPP ─── */
+  .wa-float {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #25D366;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 0.85rem 1.4rem;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+    transition: all 0.25s;
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+    animation: wa-pulse 3s infinite;
+  }
+
+  .wa-float:hover {
+    background: #1ebe5d;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(37,211,102,0.5);
+  }
+
+  .wa-float svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+  @keyframes wa-pulse {
+    0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4); }
+    50% { box-shadow: 0 4px 35px rgba(37,211,102,0.7); }
+  }
+
+  @media (max-width: 900px) {
+    .wa-float { bottom: 1.2rem; right: 1.2rem; padding: 0.75rem 1.1rem; font-size: 0.65rem; }
+    .wa-float .wa-float-text { display: none; }
+    .wa-float svg { width: 22px; height: 22px; }
+  }
+
+  /* ─── ANIMATIONS ─── */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ─── RESPONSIVE TABLET ─── */
+  @media (max-width: 900px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-cta { font-size: 0.65rem; padding: 0.5rem 1rem; }
+    .hero { grid-template-columns: 1fr; }
+    .hero-left { border-right: none; border-bottom: 1px solid var(--border); padding: 3rem 1.5rem; }
+    .hero-right { padding: 2rem 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1px; }
+    .for-who, .outcomes { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.5rem; }
+    .curriculum, .tools, .pricing, .faq, .cta-footer { padding: 3rem 1.5rem; }
+    .weeks-grid { grid-template-columns: 1fr 1fr; }
+    .pricing-cards { grid-template-columns: 1fr; max-width: 400px; }
+    .cta-footer { grid-template-columns: 1fr; gap: 2rem; }
+    footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+  }
+
+  /* ─── RESPONSIVE MOBILE ─── */
+  @media (max-width: 480px) {
+    nav { padding: 0.9rem 1.2rem; }
+    .nav-logo { font-size: 1rem; }
+    .nav-cta { display: none; }
+    .hero-left { padding: 2rem 1.2rem; }
+    .hero-title { font-size: 2.2rem; }
+    .hero-sub { font-size: 0.95rem; }
+    .hero-actions { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .btn-primary { width: 100%; text-align: center; }
+    .hero-right { grid-template-columns: 1fr 1fr; padding: 1.5rem 1.2rem; }
+    .stat-num { font-size: 2rem; }
+    .for-who, .outcomes { padding: 2.5rem 1.2rem; }
+    .curriculum, .tools, .pricing, .faq { padding: 2.5rem 1.2rem; }
+    .weeks-grid { grid-template-columns: 1fr; }
+    .section-title { font-size: 1.6rem; }
+    .audience-item { padding: 1rem 1.2rem; }
+    .price-card { padding: 1.8rem 1.5rem; }
+    .price-amount { font-size: 2.2rem; }
+    .cta-footer { padding: 3rem 1.2rem; grid-template-columns: 1fr; gap: 2rem; }
+    .cta-footer-title { font-size: 1.8rem; }
+    .cta-footer::before { font-size: 6rem; }
+    .instructor-card { flex-direction: column; }
+    footer { padding: 1.2rem; flex-direction: column; gap: 0.5rem; text-align: center; }
+    .wa-btn-large { width: 100%; justify-content: center; font-size: 0.8rem; padding: 1rem 1.5rem; }
+    /* Fix grid mobile */
+    [style*="grid-template-columns: repeat(3"] { grid-template-columns: 1fr !important; }
+    [style*="grid-template-columns: 1fr 1fr"] { grid-template-columns: 1fr !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <svg viewBox="0 0 230 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18 8L33 3L48 8V25C48 37 33 45 33 45C33 45 18 37 18 25V8Z" fill="none" stroke="#c8f135" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M24 18L31 24L24 30" stroke="#c8f135" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <rect x="32" y="28" width="9" height="2.5" fill="#c8f135"/>
+      <text x="60" y="30" font-family="'Arial Black',Arial,sans-serif" font-size="21" font-weight="900" fill="#f0ede6" letter-spacing="-0.5">reskill</text>
+      <text x="60" y="48" font-family="'Courier New',monospace" font-size="12" font-weight="700" fill="#c8f135" letter-spacing="4">.guru</text>
+    </svg>
+  </div>
+  <a href="https://wa.me/918197083737?text=Hi!%20I'm%20interested%20in%20the%20reskill.guru%20founding%20batch." class="nav-cta" target="_blank">WHATSAPP US →</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-left fade-up">
+    <div class="hero-badge">FOUNDING BATCH — STARTS 30TH MAY · ONLY 15 SEATS</div>
+    <h1 class="hero-title">
+      Stop learning.<br>
+      <span class="strike">theory.</span><br>
+      Start hacking<br>
+      <span class="accent">for real.</span>
+    </h1>
+    <p class="hero-sub">
+      An <strong>8-week hands-on bootcamp</strong> built by practitioners with 20+ years of frontline cybersecurity experience. Real labs. Real tools. Real job readiness — not just another certificate to collect.
+    </p>
+    <div class="hero-actions">
+      <a href="https://wa.me/918197083737?text=Hi!%20I'm%20interested%20in%20the%20reskill.guru%20founding%20batch." class="wa-btn" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        CLAIM YOUR SEAT
+      </a>
+    </div>
+  </div>
+  <div class="hero-right fade-up">
+    <div class="stat-block">
+      <div class="stat-num">20+</div>
+      <div class="stat-label"><strong>Years of frontline</strong> cybersecurity experience behind this curriculum</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-num">8</div>
+      <div class="stat-label"><strong>Weeks of structured</strong> live sessions, labs & mentorship</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-num" style="font-size: clamp(1.6rem, 4vw, 2.8rem);">₹4,999</div>
+      <div class="stat-label"><strong>Founding batch price.</strong> Goes up to ₹24,999 next cohort.</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-num" style="font-family: 'Space Mono', 'Courier New', monospace; letter-spacing: -2px;">ZERO</div>
+      <div class="stat-label"><strong>Prerequisites.</strong> We start from zero and go to job-ready.</div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span class="marquee-item"><span>▲</span>KALI LINUX</span>
+    <span class="marquee-item"><span>▲</span>TRYHACKME</span>
+    <span class="marquee-item"><span>▲</span>HACK THE BOX</span>
+    <span class="marquee-item"><span>▲</span>METASPLOIT</span>
+    <span class="marquee-item"><span>▲</span>BURP SUITE</span>
+    <span class="marquee-item"><span>▲</span>NMAP</span>
+    <span class="marquee-item"><span>▲</span>SPLUNK</span>
+    <span class="marquee-item"><span>▲</span>OWASP TOP 10</span>
+    <span class="marquee-item"><span>▲</span>COMPTIA SECURITY+</span>
+    <span class="marquee-item"><span>▲</span>eJPT</span>
+    <span class="marquee-item"><span>▲</span>AI IN SECURITY</span>
+    <span class="marquee-item"><span>▲</span>CLOUD LABS</span>
+    <span class="marquee-item"><span>▲</span>KALI LINUX</span>
+    <span class="marquee-item"><span>▲</span>TRYHACKME</span>
+    <span class="marquee-item"><span>▲</span>HACK THE BOX</span>
+    <span class="marquee-item"><span>▲</span>METASPLOIT</span>
+    <span class="marquee-item"><span>▲</span>BURP SUITE</span>
+    <span class="marquee-item"><span>▲</span>NMAP</span>
+    <span class="marquee-item"><span>▲</span>SPLUNK</span>
+    <span class="marquee-item"><span>▲</span>OWASP TOP 10</span>
+    <span class="marquee-item"><span>▲</span>COMPTIA SECURITY+</span>
+    <span class="marquee-item"><span>▲</span>eJPT</span>
+    <span class="marquee-item"><span>▲</span>AI IN SECURITY</span>
+    <span class="marquee-item"><span>▲</span>CLOUD LABS</span>
+  </div>
+</div>
+
+<!-- WEBINAR STRIP — compact, for impatient visitors -->
+<div style="background: #0c120a; border-bottom: 1px solid #1a2a0a; border-top: 1px solid #1a2a0a; padding: 1.2rem 3rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+  <div style="display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; gap: 0.8rem;">
+    <div style="display: flex; align-items: center; gap: 0.5rem;">
+      <div style="width: 7px; height: 7px; background: #c8f135; border-radius: 50%; animation: pulse 2s infinite; flex-shrink: 0;"></div>
+      <span style="font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.15em; color: #c8f135;">FREE MASTERCLASS</span>
+    </div>
+    <span style="font-family: 'Syne', sans-serif; font-size: 0.92rem; font-weight: 700; color: #f0ede6;">From Fresher to Security Professional</span>
+    <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; color: #555; letter-spacing: 0.05em;">17th May 2026 · 11:00 AM IST · Zoom · Free</span>
+  </div>
+  <a href="YOUR_ZOOM_REGISTRATION_LINK" target="_blank" style="background: #c8f135; color: #0a0a0a; font-family: 'Space Mono', monospace; font-size: 0.65rem; font-weight: 700; padding: 0.65rem 1.4rem; text-decoration: none; letter-spacing: 0.08em; white-space: nowrap; clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%); transition: background 0.2s;" onmouseover="this.style.background='#d9ff3a'" onmouseout="this.style.background='#c8f135'">
+    RESERVE MY SPOT →
+  </a>
+</div>
+
+<!-- FOR WHO -->
+<section class="for-who">
+  <div class="for-who-left fade-up">
+    <div class="section-header">
+      <span class="section-tag">WHO IS THIS FOR</span>
+    </div>
+    <h2 class="section-title">Built for people who want to build, break and defend — not just study.</h2>
+    <p class="for-who-desc">
+      Most cybersecurity courses are built for passive learners. This one is built for people who want to get their hands dirty, understand how real attacks happen, and get hired to stop them.
+    </p>
+    <div class="instructor-card">
+      <div class="instructor-avatar">
+        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="52" height="52" rx="4" fill="#c8f135"/>
+          <path d="M16 14L26 10L36 14V26C36 34 26 40 26 40C26 40 16 34 16 26V14Z" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M21 24L26 28L21 32" stroke="#0a0a0a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="27" y="30" width="7" height="2" fill="#0a0a0a"/>
+        </svg>
+      </div>
+      <div class="instructor-info">
+        <strong>Who's In Your Corner</strong>
+        <p>A team of practitioners with 20+ years of combined frontline experience — investigating live data breaches, tracing network intrusions, containing malware outbreaks, and preventing data loss events at scale. We've seen what breaks organisations — and we'll teach you exactly how to stop it.</p>
+      </div>
+    </div>
+  </div>
+  <div class="audience-list fade-up">
+    <div class="audience-item">
+      <div class="audience-icon">🎓</div>
+      <div class="audience-text">
+        <strong>CS / IT College Freshers</strong>
+        <span>Just graduated or in final year. Want a real skill, not another degree module.</span>
+      </div>
+    </div>
+    <div class="audience-item">
+      <div class="audience-icon">💼</div>
+      <div class="audience-text">
+        <strong>1–3 Year Young Professionals</strong>
+        <span>In networking, sysadmin, or dev. Ready to pivot into cybersecurity with purpose.</span>
+      </div>
+    </div>
+    <div class="audience-item">
+      <div class="audience-icon">🛡️</div>
+      <div class="audience-text">
+        <strong>Future Security Analysts</strong>
+        <span>You want to monitor live threats, triage security alerts, and hunt attackers in real time — inside a security operations team. We train exactly that person.</span>
+      </div>
+    </div>
+    <div class="audience-item">
+      <div class="audience-icon">🔓</div>
+      <div class="audience-text">
+        <strong>Ethical Hacking Enthusiasts</strong>
+        <span>Already tinkering on CTFs. Want structure, mentorship, and a career path that pays.</span>
+      </div>
+    </div>
+    <div class="audience-item">
+      <div class="audience-icon">📄</div>
+      <div class="audience-text">
+        <strong>Cert Chasers Done Waiting</strong>
+        <span>Studying for Security+ or CEH but struggling without real hands-on context to make it stick.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE FIX -->
+<section style="padding: 5rem 3rem; border-bottom: 1px solid #1a1a1a; background: #060606;">
+  <div class="section-header fade-up">
+    <span class="section-tag">WHY RESKILL.GURU</span>
+    <h2 class="section-title">We don't teach cybersecurity.<br>We make you hireable.</h2>
+  </div>
+  <p style="color: #666; font-size: 1rem; max-width: 560px; margin-bottom: 3.5rem; font-weight: 300; line-height: 1.8;" class="fade-up">
+    Your peers are applying with the same degree. You'll apply with <strong style="color: #aaa;">proof</strong>. Here's exactly what we fix.
+  </p>
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #1a1a1a;" class="fade-up">
+
+    <div style="background: #0a0a0a; padding: 2rem 1.8rem; border-top: 2px solid #c8f135;">
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; color: #c8f135; margin-bottom: 1rem;">FIX 01</div>
+      <div style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem;">The Experience Problem</div>
+      <p style="font-size: 0.82rem; color: #666; line-height: 1.7;">Your resume says fresher. Our capstone project, lab completions and live webinar appearances say otherwise. Leave looking like someone with 2 years on the job.</p>
+    </div>
+
+    <div style="background: #0a0a0a; padding: 2rem 1.8rem; border-top: 2px solid #c8f135;">
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; color: #c8f135; margin-bottom: 1rem;">FIX 02</div>
+      <div style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem;">The Skills Gap</div>
+      <p style="font-size: 0.82rem; color: #666; line-height: 1.7;">We do a resume gap analysis matched against the most in-demand cybersecurity skills for your experience level. Then we fill every gap — hands on, not by slide deck.</p>
+    </div>
+
+    <div style="background: #0a0a0a; padding: 2rem 1.8rem; border-top: 2px solid #c8f135;">
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; color: #c8f135; margin-bottom: 1rem;">FIX 03</div>
+      <div style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem;">The Interview Problem</div>
+      <p style="font-size: 0.82rem; color: #666; line-height: 1.7;">Practice. Refine. Repeat — until you're ready, not just done. We run mock interviews with real feedback from people who have actually hired security professionals.</p>
+    </div>
+
+    <div style="background: #0a0a0a; padding: 2rem 1.8rem; border-top: 2px solid #333;">
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; color: #c8f135; margin-bottom: 1rem;">FIX 04</div>
+      <div style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem;">The AI Blind Spot</div>
+      <p style="font-size: 0.82rem; color: #666; line-height: 1.7;">Most freshers have zero real AI exposure. We weave AI into every week — from log analysis to threat detection to interview prep. You'll know how modern SOC teams actually use AI today.</p>
+    </div>
+
+    <div style="background: #0a0a0a; padding: 2rem 1.8rem; border-top: 2px solid #333;">
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; color: #c8f135; margin-bottom: 1rem;">FIX 05</div>
+      <div style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem;">The Visibility Problem</div>
+      <p style="font-size: 0.82rem; color: #666; line-height: 1.7;">We give you a stage. Live webinars where you showcase your skills to an audience that includes hiring managers. Get seen before you even apply. Most candidates never get this chance.</p>
+    </div>
+
+    <div style="background: #0c120a; padding: 2rem 1.8rem; border-top: 2px solid #333; position: relative;">
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; color: #c8f135; margin-bottom: 1rem;">THE GUARANTEE</div>
+      <div style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem;">No Questions Asked Refund</div>
+      <p style="font-size: 0.82rem; color: #666; line-height: 1.7;">If you show up, do the work, and don't feel the program is delivering — we refund you. No forms. No drama. We're that confident because we know what this does for careers.</p>
+    </div>
+
+  </div>
+
+  <!-- Leapfrog banner -->
+  <div style="margin-top: 1px; background: #c8f135; padding: 1.5rem 1.8rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;" class="fade-up">
+    <div>
+      <div style="font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 800; color: #0a0a0a; letter-spacing: -0.02em;">Leapfrog the fresher competition.</div>
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.65rem; color: #1a1a1a; letter-spacing: 0.1em; margin-top: 0.3rem;">BECAUSE WE KNOW EXACTLY WHAT CYBERSECURITY COMPANIES LOOK FOR.</div>
+    </div>
+    <a href="https://wa.me/918197083737?text=Hi!%20I'm%20interested%20in%20the%20reskill.guru%20founding%20batch." class="wa-btn" target="_blank" style="background: #0a0a0a; color: #c8f135; white-space: nowrap;">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      CLAIM YOUR SEAT
+    </a>
+  </div>
+</section>
+
+<!-- WEBINAR BANNER -->
+<section id="webinar" style="padding: 4rem 3rem; border-bottom: 1px solid #1a1a1a; background: #0a0a0a; position: relative; overflow: hidden;">
+  <!-- Background accent -->
+  <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #c8f135, transparent);"></div>
+  <div style="max-width: 860px; margin: 0 auto;" class="fade-up">
+    <!-- Label -->
+    <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1.5rem;">
+      <div style="width: 8px; height: 8px; background: #c8f135; border-radius: 50%; animation: pulse 2s infinite;"></div>
+      <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.2em; color: #c8f135;">FREE LIVE MASTERCLASS — LIMITED SPOTS</span>
+    </div>
+    <!-- Title -->
+    <h2 style="font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(1.4rem, 3vw, 2.2rem); letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 1rem; color: #f0ede6;">
+      From Fresher to Security Professional —<br>
+      <span style="color: #c8f135;">What Actually Gets You Hired in 2026</span>
+    </h2>
+    <p style="font-size: 0.9rem; color: #666; line-height: 1.7; max-width: 580px; margin-bottom: 2rem; font-weight: 300;">
+      A free 75-minute live session covering what cybersecurity hiring managers actually look for, a live hacking demo, and an honest walkthrough of what it takes to break into the field. No fluff. No pitch. Just substance.
+    </p>
+    <!-- Event details strip -->
+    <div style="display: flex; flex-wrap: wrap; gap: 1px; background: #1a1a1a; margin-bottom: 2rem;">
+      <div style="background: #111; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 0.6rem; flex: 1; min-width: 140px;">
+        <span style="color: #c8f135; font-size: 1rem;">📅</span>
+        <div>
+          <div style="font-family: 'Space Mono', monospace; font-size: 0.55rem; color: #444; letter-spacing: 0.15em; margin-bottom: 0.2rem;">DATE</div>
+          <div style="font-size: 0.85rem; font-weight: 500; color: #f0ede6;">Sunday, 17th May 2026</div>
+        </div>
+      </div>
+      <div style="background: #111; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 0.6rem; flex: 1; min-width: 140px;">
+        <span style="color: #c8f135; font-size: 1rem;">⏰</span>
+        <div>
+          <div style="font-family: 'Space Mono', monospace; font-size: 0.55rem; color: #444; letter-spacing: 0.15em; margin-bottom: 0.2rem;">TIME</div>
+          <div style="font-size: 0.85rem; font-weight: 500; color: #f0ede6;">11:00 AM IST</div>
+        </div>
+      </div>
+      <div style="background: #111; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 0.6rem; flex: 1; min-width: 140px;">
+        <span style="color: #c8f135; font-size: 1rem;">💻</span>
+        <div>
+          <div style="font-family: 'Space Mono', monospace; font-size: 0.55rem; color: #444; letter-spacing: 0.15em; margin-bottom: 0.2rem;">PLATFORM</div>
+          <div style="font-size: 0.85rem; font-weight: 500; color: #f0ede6;">Zoom — Free to Attend</div>
+        </div>
+      </div>
+      <div style="background: #111; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 0.6rem; flex: 1; min-width: 140px;">
+        <span style="color: #c8f135; font-size: 1rem;">⏱</span>
+        <div>
+          <div style="font-family: 'Space Mono', monospace; font-size: 0.55rem; color: #444; letter-spacing: 0.15em; margin-bottom: 0.2rem;">DURATION</div>
+          <div style="font-size: 0.85rem; font-weight: 500; color: #f0ede6;">75 Minutes</div>
+        </div>
+      </div>
+    </div>
+    <!-- Agenda -->
+    <div style="margin-bottom: 2rem; padding: 1.2rem 1.5rem; border: 1px solid #1a1a1a; background: #0e0e0e;">
+      <div style="font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.15em; color: #444; margin-bottom: 0.8rem;">WHAT'S COVERED</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+        <div style="font-size: 0.8rem; color: #777; display: flex; gap: 0.5rem;"><span style="color: #c8f135; flex-shrink: 0;">→</span> What hiring managers actually look for</div>
+        <div style="font-size: 0.8rem; color: #777; display: flex; gap: 0.5rem;"><span style="color: #c8f135; flex-shrink: 0;">→</span> Live ethical hacking demo</div>
+        <div style="font-size: 0.8rem; color: #777; display: flex; gap: 0.5rem;"><span style="color: #c8f135; flex-shrink: 0;">→</span> Cybersecurity career roadmap for 2026</div>
+        <div style="font-size: 0.8rem; color: #777; display: flex; gap: 0.5rem;"><span style="color: #c8f135; flex-shrink: 0;">→</span> Live Q&A — ask anything</div>
+      </div>
+    </div>
+    <!-- CTA -->
+    <div style="display: flex; flex-direction: column; gap: 0.8rem; align-items: flex-start;">
+      <a href="YOUR_ZOOM_REGISTRATION_LINK" class="btn-primary" target="_blank" style="background: #c8f135; color: #0a0a0a; font-family: 'Space Mono', monospace; font-size: 0.72rem; font-weight: 700; padding: 1rem 2rem; text-decoration: none; letter-spacing: 0.06em; clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%); display: inline-block;">
+        RESERVE MY FREE SPOT ON ZOOM →
+      </a>
+      <p style="font-family: 'Space Mono', monospace; font-size: 0.58rem; color: #c8f135; letter-spacing: 0.08em;">FREE TO ATTEND · ZOOM LINK SENT ON REGISTRATION · SPOTS LIMITED</p>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM -->
+<section class="curriculum" id="curriculum">
+  <div class="section-header fade-up">
+    <span class="section-tag">CURRICULUM</span>
+    <h2 class="section-title">8 weeks. Every week counts.</h2>
+  </div>
+  <div class="weeks-grid fade-up">
+    <div class="week-card">
+      <div class="week-num">WEEK 01</div>
+      <div class="week-title">Networking & Linux Fundamentals</div>
+      <div class="week-desc">TCP/IP, OSI model, subnetting, Linux filesystem, Bash basics. You set up your cloud Kali lab on Day 1.</div>
+      <span class="week-tag">THM + CLOUD LAB</span>
+    </div>
+    <div class="week-card">
+      <div class="week-num">WEEK 02</div>
+      <div class="week-title">Threat Landscape & MITRE ATT&CK</div>
+      <div class="week-desc">CIA Triad, attack taxonomy, CVE/CVSS scoring, kill chain model. Instructor walks through a real incident live.</div>
+      <span class="week-tag">THM + CVE RESEARCH</span>
+    </div>
+    <div class="week-card">
+      <div class="week-num">WEEK 03</div>
+      <div class="week-title">Recon & OSINT</div>
+      <div class="week-desc">Google dorking, Shodan, theHarvester, Maltego. Full OSINT investigation on a fictional target company.</div>
+      <span class="week-tag">THM + LIVE DEMO</span>
+    </div>
+    <div class="week-card">
+      <div class="week-num">WEEK 04</div>
+      <div class="week-title">Scanning & Vulnerability Assessment</div>
+      <div class="week-desc">Nmap deep dive, Nikto, Gobuster, OpenVAS. You produce your first professional vulnerability report.</div>
+      <span class="week-tag">THM + HTB</span>
+    </div>
+    <div class="week-card">
+      <div class="week-num">WEEK 05</div>
+      <div class="week-title">Exploitation Fundamentals</div>
+      <div class="week-desc">Metasploit, manual exploitation, reverse shells, post-exploitation basics. Live exploitation on cloud lab.</div>
+      <span class="week-tag">HTB STARTING POINT</span>
+    </div>
+    <div class="week-card">
+      <div class="week-num">WEEK 06</div>
+      <div class="week-title">Web Application Security</div>
+      <div class="week-desc">OWASP Top 10, SQLi, XSS, IDOR, Burp Suite. Hands-on DVWA exploitation across all vulnerability classes.</div>
+      <span class="week-tag">DVWA + BURP</span>
+    </div>
+    <div class="week-card">
+      <div class="week-num">WEEK 07</div>
+      <div class="week-title">Blue Team & Defensive Security</div>
+      <div class="week-desc">SIEM, log analysis, Splunk, incident response. You triage a simulated live attack using real logs.</div>
+      <span class="week-tag">SPLUNK + THM</span>
+    </div>
+    <div class="week-card highlight">
+      <div class="week-num">WEEK 08</div>
+      <div class="week-title">Capstone + Career Week</div>
+      <div class="week-desc">Full penetration test or incident response report as portfolio piece. Certification preparation, mock interviews, resume review with industry guest.</div>
+      <span class="week-tag red">FINAL PROJECT</span>
+    </div>
+  </div>
+  <div style="margin-top: 1.5rem; padding: 1rem 1.5rem; border: 1px solid rgba(200,241,53,0.15); display: flex; align-items: center; gap: 1rem; background: #0a0a0a;">
+    <span style="color: var(--acid); font-size: 1.2rem;">⚡</span>
+    <p style="font-size: 0.82rem; color: #777; line-height: 1.6;"><strong style="color: #aaa;">AI is woven throughout every week</strong> — from using AI to analyze scan output and summarize CVEs, to AI-assisted log triage and interview preparation. You'll leave knowing how AI is used in real security operations teams today.</p>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section class="tools fade-up">
+  <div class="section-header">
+    <span class="section-tag">TOOLS & PLATFORMS</span>
+    <h2 class="section-title">The actual industry stack.</h2>
+  </div>
+  <div class="tools-grid">
+    <span class="tool-pill">TryHackMe</span>
+    <span class="tool-pill">Kali Linux</span>
+    <span class="tool-pill">Metasploit</span>
+    <span class="tool-pill">Burp Suite</span>
+    <span class="tool-pill">Nmap</span>
+    <span class="tool-pill">Wireshark</span>
+    <span class="tool-pill">Splunk</span>
+    <span class="tool-pill">Wazuh</span>
+    <span class="tool-pill">OpenVAS</span>
+    <span class="tool-pill">Nikto</span>
+    <span class="tool-pill">Gobuster</span>
+    <span class="tool-pill">theHarvester</span>
+    <span class="tool-pill">Shodan</span>
+    <span class="tool-pill">Maltego</span>
+    <span class="tool-pill">SQLmap</span>
+    <span class="tool-pill">Hashcat</span>
+    <span class="tool-pill">John the Ripper</span>
+    <span class="tool-pill">DVWA</span>
+    <span class="tool-pill">Metasploitable</span>
+    <span class="tool-pill">MITRE ATT&CK</span>
+    <span class="tool-pill">Python</span>
+    <span class="tool-pill">Bash</span>
+  </div>
+</section>
+
+<!-- OUTCOMES -->
+<section class="outcomes fade-up">
+  <div>
+    <div class="section-header">
+      <span class="section-tag">WHAT YOU'LL HAVE</span>
+    </div>
+    <h2 class="section-title" style="margin-bottom: 2rem;">Leave with proof, not just knowledge.</h2>
+    <div class="outcome-list">
+      <div class="outcome-item">
+        <span class="outcome-num">01</span>
+        <div class="outcome-text">
+          <strong>A Professional Portfolio Piece</strong>
+          <p>A full penetration test report or incident response report from your Week 8 capstone — something most freshers applying alongside you won't have.</p>
+        </div>
+      </div>
+      <div class="outcome-item">
+        <span class="outcome-num">02</span>
+        <div class="outcome-text">
+          <strong>Hands-On Lab Experience</strong>
+          <p>Documented THM and HTB completions, cloud lab screenshots, and real tool usage — evidence you can point to in interviews.</p>
+        </div>
+      </div>
+      <div class="outcome-item">
+        <span class="outcome-num">03</span>
+        <div class="outcome-text">
+          <strong>Certification Readiness</strong>
+          <p>Curriculum aligned to Security+ and eJPT. You'll know the theory and have the practical context to pass.</p>
+        </div>
+      </div>
+      <div class="outcome-item">
+        <span class="outcome-num">04</span>
+        <div class="outcome-text">
+          <strong>Career Support</strong>
+          <p>Resume review, mock technical interview, LinkedIn optimisation, and access to our professional network of cybersecurity hiring contacts.</p>
+        </div>
+      </div>
+      <div class="outcome-item">
+        <span class="outcome-num">05</span>
+        <div class="outcome-text">
+          <strong>AI Fluency</strong>
+          <p>Know how AI tools are used in real security operations teams — a skill that makes you immediately more valuable to any security employer hiring today.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="certs-block">
+    <div class="section-header">
+      <span class="section-tag">WHAT YOU'LL BE READY FOR</span>
+    </div>
+    <div class="cert-card">
+      <div class="cert-name">CompTIA Security+</div>
+      <div class="cert-desc">The most recognized entry-level security certification globally. Our curriculum covers all 5 domains with hands-on context for every objective.</div>
+    </div>
+    <div class="cert-card">
+      <div class="cert-name">eLearnSecurity eJPT</div>
+      <div class="cert-desc">A practical, hands-on certification that's perfect for freshers. Our lab work directly mirrors the eJPT exam environment and methodology.</div>
+    </div>
+    <div class="cert-card" style="border-color: rgba(200,241,53,0.15);">
+      <div class="cert-name" style="color: #888;">CEH (Future Track)</div>
+      <div class="cert-desc" style="color: #555;">The reskill.guru curriculum lays the groundwork for CEH. Students who want to continue after the bootcamp are well positioned for this path.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="enroll">
+  <div class="section-header fade-up">
+    <span class="section-tag">FOUNDING BATCH PRICING</span>
+    <h2 class="section-title">Low price. High commitment. Both ways.</h2>
+  </div>
+  <p style="color: #666; font-size: 0.9rem; max-width: 540px; margin-bottom: 1rem; font-weight: 300;">We've priced the founding batch low because we want 15 committed students who'll shape the program with us. In return, you get the lowest price this program will ever be offered at.</p>
+  <p style="font-family: 'Space Mono', monospace; font-size: 0.7rem; color: #c8f135; letter-spacing: 0.1em; margin-bottom: 2rem;">⬤ COHORT STARTS 30TH MAY 2026 — ENROL BEFORE SEATS FILL</p>
+  <div class="pricing-cards fade-up">
+    <div class="price-card featured">
+      <div class="price-badge">FOUNDING BATCH</div>
+      <div class="price-label">FULL PROGRAM — 8 WEEKS</div>
+      <div class="price-amount"><span class="currency">₹</span>4,999</div>
+      <div class="price-was">Next cohort: ₹24,999</div>
+      <ul class="price-features">
+        <li>2 live sessions per week (90 mins each)</li>
+        <li>Weekly group mentorship office hour</li>
+        <li>Cloud lab access (Kali, DVWA, Metasploitable)</li>
+        <li>THM & HTB guided assignments</li>
+        <li>Capstone project with instructor feedback</li>
+        <li>Resume & LinkedIn review</li>
+        <li>Mock technical interview session</li>
+        <li>All pre-recorded video content</li>
+        <li>Private Discord community access</li>
+      </ul>
+      <a href="https://wa.me/918197083737?text=Hi!%20I%20want%20to%20enroll%20in%20the%20reskill.guru%20founding%20batch." class="wa-btn" style="display:flex;justify-content:center;" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;margin-right:0.5rem;flex-shrink:0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        ENROLL NOW ON WHATSAPP
+      </a>
+      <div class="seats-warning">⬤ ONLY 15 SEATS AVAILABLE</div>
+    </div>
+    <div class="price-card">
+      <div style="height: 2rem;"></div>
+      <div class="price-label">INCOME SHARE OPTION</div>
+      <div class="price-amount" style="font-size: 2rem; color: #aaa;">Pay After<br>You're Hired</div>
+      <div class="price-was" style="margin-bottom: 1.5rem;">₹0 upfront · ₹15,000 on placement</div>
+      <ul class="price-features">
+        <li>All the same content and access as the full program</li>
+        <li>Pay ₹15,000 only after landing a job above ₹12 LPA — aligned with current industry averages</li>
+        <li>Limited to 2 spots per cohort</li>
+        <li>Application required — we assess commitment and aptitude</li>
+      </ul>
+      <a href="https://wa.me/918197083737?text=Hi!%20I'd%20like%20to%20apply%20for%20the%20Income%20Share%20option%20at%20reskill.guru." class="btn-ghost" style="display: block; text-align: center; padding: 1rem; border: 1px solid #333; border-bottom: 1px solid #333;" target="_blank">APPLY FOR ISA ON WHATSAPP →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq fade-up">
+  <div class="section-header">
+    <span class="section-tag">FAQ</span>
+    <h2 class="section-title">Common questions.</h2>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Do I need any prior experience? <span class="toggle">+</span></div>
+    <div class="faq-a">No. We start from absolute zero — networking basics, Linux fundamentals, everything. If you can use a computer and are willing to put in 8-10 hours a week, you're ready.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What equipment do I need? <span class="toggle">+</span></div>
+    <div class="faq-a">A laptop with at least 8GB RAM and a stable internet connection. All labs run on cloud infrastructure we provide — you don't need to install anything heavy locally. We'll guide setup in Week 1.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">When are live sessions? <span class="toggle">+</span></div>
+    <div class="faq-a">Sessions are scheduled on weekends to accommodate college students and working professionals. The founding batch starts 30th May 2026. Exact session timings are confirmed with the enrolled cohort before the program starts.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What if I miss a live session? <span class="toggle">+</span></div>
+    <div class="faq-a">All live sessions are recorded and available within 24 hours. We do encourage attendance for the interactive elements, but we understand life happens.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Is this a guaranteed placement program? <span class="toggle">+</span></div>
+    <div class="faq-a">We don't guarantee placement — no honest program can. What we guarantee is that you'll leave with real skills, a portfolio piece, and active placement assistance through our network. Your outcome depends on your effort.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Will this prepare me for Security+ or eJPT? <span class="toggle">+</span></div>
+    <div class="faq-a">Yes. The curriculum is aligned to both certifications. Week 8 includes a dedicated certification preparation session. You'll need additional self-study after the program, but the hands-on labs set a strong foundation that makes certification significantly easier to qualify.</div>
+  </div>
+</section>
+
+<!-- CTA FOOTER -->
+<section class="cta-footer" id="signup">
+  <div class="fade-up">
+    <h2 class="cta-footer-title">15 seats.<br><span>Don't think too long.</span></h2>
+    <p class="cta-footer-sub">Message us on WhatsApp — we'll send you the full program details, schedule, and payment link instantly.</p>
+  </div>
+  <div class="fade-up">
+    <a href="https://wa.me/918197083737?text=Hi!%20I'm%20interested%20in%20the%20reskill.guru%20founding%20batch.%20Please%20send%20me%20details." class="wa-btn wa-btn-large" target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      CHAT WITH US ON WHATSAPP
+    </a>
+    <p style="font-family: 'Space Mono', monospace; font-size: 0.6rem; color: #444; margin-top: 0.8rem; letter-spacing: 0.05em;">WE REPLY WITHIN 15 MINUTES · NO SPAM · JUST REAL ANSWERS.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <svg width="120" height="30" viewBox="0 0 230 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M18 8L33 3L48 8V25C48 37 33 45 33 45C33 45 18 37 18 25V8Z" fill="none" stroke="#c8f135" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M24 18L31 24L24 30" stroke="#c8f135" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="32" y="28" width="9" height="2.5" fill="#c8f135"/>
+    <text x="60" y="30" font-family="'Arial Black',Arial,sans-serif" font-size="21" font-weight="900" fill="#f0ede6" letter-spacing="-0.5">reskill</text>
+    <text x="60" y="48" font-family="'Courier New',monospace" font-size="12" font-weight="700" fill="#c8f135" letter-spacing="4">.guru</text>
+  </svg>
+  <p>Built by practitioners. For practitioners in the making.</p>
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/918197083737?text=Hi!%20I'm%20interested%20in%20the%20reskill.guru%20founding%20batch." class="wa-float" target="_blank">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wa-float-text">CHAT WITH US</span>
+</a>
+
+<script>
+  // FAQ toggle
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.parentElement;
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+
+  // Intersection observer for fade-up
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
